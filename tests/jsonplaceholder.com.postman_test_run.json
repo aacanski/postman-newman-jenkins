@@ -1,0 +1,180 @@
+{
+	"id": "064fb697-1f88-4a08-9c8d-47b58d38abc4",
+	"name": "jsonplaceholder.com",
+	"allTests": [],
+	"timestamp": "2017-10-12T12:06:23.565Z",
+	"collection_id": "702d5ff8-4e1b-5a55-b9c1-e94578aa343e",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "no-environment",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "702d5ff8-4e1b-5a55-b9c1-e94578aa343e",
+		"name": "jsonplaceholder.com",
+		"description": "",
+		"order": [
+			"8026284c-2305-d875-ffcc-996b92dc7305",
+			"2171dae0-dd4c-c63c-d0e9-28f31be3ccbe"
+		],
+		"folders": [],
+		"folders_order": [],
+		"timestamp": 1507797861064,
+		"synced": false,
+		"remote_id": 0,
+		"owner": "2804853",
+		"sharedWithTeam": false,
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1507797861064,
+		"updatedAt": 1507801839119,
+		"write": true,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts?userId=1",
+			"id": "8026284c-2305-d875-ffcc-996b92dc7305",
+			"url": "https://jsonplaceholder.typicode.com/posts?userId=1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"195"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "195",
+			"totalRequestTime": "195",
+			"iterationResults": {}
+		},
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts/1",
+			"id": "2171dae0-dd4c-c63c-d0e9-28f31be3ccbe",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"815"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			],
+			"time": "815",
+			"totalRequestTime": "815",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 4,
+	"totalFail": 0,
+	"totalTime": 1010,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts?userId=1",
+			"id": "8026284c-2305-d875-ffcc-996b92dc7305",
+			"url": "https://jsonplaceholder.typicode.com/posts?userId=1",
+			"time": "2017-10-12T12:06:23.565Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts/1",
+			"id": "2171dae0-dd4c-c63c-d0e9-28f31be3ccbe",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": "2017-10-12T12:06:23.565Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
